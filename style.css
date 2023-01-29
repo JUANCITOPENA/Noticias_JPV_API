@@ -1,0 +1,47 @@
+/* CSS para dar estilo a las tarjetas de noticias */
+
+.news-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 16px;
+    padding: 16px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+  }
+img {
+    width: 85%;
+    height: auto;
+    margin-right: 16px;
+  }
+   .news-image {
+    width: 128px;
+    height: 128px;
+    margin-right: 16px;
+    border-radius: 55%;
+    -webkit-border-radius: 55%;
+    -moz-border-radius: 55%;
+    -ms-border-radius: 55%;
+    -o-border-radius: 55%;
+    border: 5px solid yellowgreen;
+}
+  .news-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  .news-description {
+    font-size: 22px;
+    color: #666666;
+    flex-grow: 1;
+    text-align: justify;
+  }
+  
+  @media (max-width: 600px) and (min-width: 280px) {
+    .news-image {
+      display: block;
+      margin: 0 auto;
+    }
+  }
