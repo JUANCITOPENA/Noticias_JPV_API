@@ -1,5 +1,5 @@
 // JavaScript para conectarse a la API de noticias y obtener las noticias
-fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey=https://newsapi.org/v2/top-headlines?country=us&apiKey="bbdc901c176b4de5bdc05c6de697c010")
+fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey=https://newsapi.org/v2/top-headlines?country=us&apiKey="TU API AQUI")
   .then(response => response.json())
   .then(data => {
     // Recorrer cada noticia y crear una tarjeta de noticia
